@@ -1,0 +1,15 @@
+{
+  "name": "Montly LMS \u2014 Academic ERP",
+  "short_name": "Montly",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090b10",
+  "theme_color": "#1f4dff",
+  "icons": [
+    {
+      "src": "https://storage.heycriss.dev/2026/09/02194113/456970.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
