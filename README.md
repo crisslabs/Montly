@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://heycriss.dev/montly">
-  <img src="https://storage.heycriss.dev/2026/09/02194113/456970.png" alt="Montly LMS — Unified Academic LMS & School ERP" width="100%" />
+  <img src="https://storage.heycriss.dev/web/repo/montly/github-hero.svg" alt="Montly LMS — Unified Academic LMS & School ERP" width="100%" />
 </a>
 
 <br />
@@ -34,14 +34,14 @@
 
 ## Overview
 
-**Montly LMS** is a **functional prototype** that combines a **Learning Management System (LMS)** with an institutional **School ERP**. Validated in a real educational environment (*Complejo Educativo Mario Briceño Iragorry*, Venezuela), it centralizes academic administration, conflict-free schedule generation, live virtual classrooms, grading workflows, and omnichannel alerts across administrators, teachers, students, and parents/guardians.
+**Montly LMS** is a **functional prototype** that combines a **Learning Management System (LMS)** with an institutional **School ERP**. Validated in a real educational environment (*CEMBI*, Venezuela), it centralizes academic administration, conflict-free schedule generation, live virtual classrooms, grading workflows, and omnichannel alerts across administrators, teachers, students, and parents/guardians.
 
 > **Resumen en Español:** **Montly LMS** es un **prototipo funcional** que fusiona una plataforma educativa tipo LMS con un ERP escolar moderno para centralizar horarios, evaluaciones, aulas virtuales con Jitsi Meet y alertas omnicanal (Telegram Bot y Resend API) bajo un control de acceso estricto basado en roles (RBAC).
 
 <br />
 
 <div align="center">
-  <img src="assets/github-features-bento.svg" alt="Montly LMS Architecture & Capabilities" width="100%" />
+  <img src="https://storage.heycriss.dev/web/repo/montly/github-features-bento.svg" alt="Montly LMS Architecture & Capabilities" width="100%" />
 </div>
 
 ---
