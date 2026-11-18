@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://heycriss.dev/montly">
-  <img src="assets/github-hero.svg" alt="Montly LMS — Unified Academic LMS & School ERP" width="100%" />
+  <img src="https://storage.heycriss.dev/2026/09/02194113/456970.png" alt="Montly LMS — Unified Academic LMS & School ERP" width="100%" />
 </a>
 
 <br />
@@ -52,7 +52,7 @@ Explore the multi-role user interface and institutional workflows directly on **
 
 | Multi-Platform Access & Auth | Institutional Admin & Teacher Panels | Parent & Student Mobile Experience |
 | :---: | :---: | :---: |
-| <img src="https://storage.heycriss.dev/20260919212937/montly-login.png" alt="Montly Login UI" width="260" /> | <img src="https://storage.heycriss.dev/20260919212937/montly-adminprofesor.png" alt="Montly Admin & Teacher UI" width="260" /> | <img src="https://storage.heycriss.dev/20260919212937/montly-padrealumno.png" alt="Montly Parent & Student UI" width="260" /> |
+| <img src="https://storage.heycriss.dev/20260919191145/montly-login.png" alt="Montly Login UI" width="260" /> | <img src="https://storage.heycriss.dev/20260919190224/montly-adminprofesor.png" alt="Montly Admin & Teacher UI" width="260" /> | <img src="https://storage.heycriss.dev/20260919190222/montly-padrealumno.png" alt="Montly Parent & Student UI" width="260" /> |
 | Unified responsive login across desktop & mobile | Real-time ERP metrics, schedules & grading | Mobile-first tracking for tasks, grades & events |
 
 ---
