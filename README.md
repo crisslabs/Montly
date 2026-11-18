@@ -119,6 +119,13 @@ flowchart LR
     FILA --> TG
     FILA --> RESEND
     ERP --> S3
+```
+
+---
+
+## Repository Structure
+
+```text
 montly-lms/
 ├── app/
 │   ├── Enums/
@@ -141,10 +148,28 @@ montly-lms/
 ├── .env.example                         # Environment configuration template
 ├── composer.json                        # PHP 8.1+, Laravel 11 & FilamentPHP 3 manifest
 └── LICENSE                              # GPL-2.0-or-later
+```
 
-License
-Released under the GNU General Public License v2.0 or later (GPL-2.0-or-later).
+---
+
+## Quick Start
+
+```bash
+git clone [https://github.com/crisslabss/montly.git](https://github.com/crisslabss/montly.git)
+cd montly
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+```
+
+---
+
+## License
+
+Released under the **GNU General Public License v2.0 or later (`GPL-2.0-or-later`)**.
+
 <div align="center">
-<br />
-<p>Engineered by <strong><a href="https://heycriss.dev">Cristhian (Criss) · HeyCriss Labs</a></strong> · <a href="https://heycriss.dev/montly"><code>heycriss.dev/montly</code></a></p>
+  <br />
+  <p>Engineered by <strong><a href="https://heycriss.dev">Cristhian (Criss) · HeyCriss Labs</a></strong> · <a href="https://heycriss.dev/montly"><code>heycriss.dev/montly</code></a></p>
 </div>
