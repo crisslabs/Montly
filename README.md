@@ -1,17 +1,18 @@
 <div align="center">
 
-<a href="https://montly.space">
+<a href="https://heycriss.dev/montly">
   <img src="assets/github-hero.svg" alt="Montly LMS — Unified Academic LMS & School ERP" width="100%" />
 </a>
 
 <br />
 
-<a href="https://montly.space">
+<a href="https://heycriss.dev/montly">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=1F4DFF&center=true&vCenter=true&width=820&lines=Academic+Learning+Management+System+%2B+School+ERP;Hierarchical+Control%3A+Years+%E2%86%92+Grades+%E2%86%92+Sections+%E2%86%92+Classrooms;Conflict-Free+Schedule+Builder+%26+Native+Jitsi+Meet+Rooms;Telegram+Bot+%2B+Resend+API+Omnichannel+Notifications" alt="Montly LMS Highlights" />
 </a>
 
 <p align="center">
-  <a href="https://montly.space"><img src="https://img.shields.io/badge/Production-montly.space-1F4DFF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://heycriss.dev/montly"><img src="https://img.shields.io/badge/Project_Showcase-heycriss.dev%2Fmontly-1F4DFF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project Showcase"></a>
+  <img src="https://img.shields.io/badge/Status-Functional_Prototype-00C853?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/PHP-8.1+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.1+">
   <img src="https://img.shields.io/badge/Laravel-11-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
   <img src="https://img.shields.io/badge/Filament-3.2-FBBF24?style=for-the-badge&logo=laravel&logoColor=black" alt="FilamentPHP">
@@ -20,11 +21,11 @@
 </p>
 
 <p align="center">
-  <a href="https://montly.space"><strong>Live Platform</strong></a> ·
+  <a href="https://heycriss.dev/montly"><strong>Project Overview & UI Tour</strong></a> ·
+  <a href="#visual-showcase"><strong>Visual Showcase</strong></a> ·
   <a href="#architecture--modules"><strong>Architecture</strong></a> ·
   <a href="#role-based-access-control-rbac"><strong>RBAC Matrix</strong></a> ·
-  <a href="#repository-structure"><strong>Directory Structure</strong></a> ·
-  <a href="https://heycriss.dev/montly"><strong>HeyCriss Labs</strong></a>
+  <a href="#repository-structure"><strong>Directory Structure</strong></a>
 </p>
 
 </div>
@@ -33,15 +34,26 @@
 
 ## Overview
 
-**Montly LMS** combines a **Learning Management System (LMS)** with an institutional **School ERP**. It centralizes academic administration, conflict-free schedule generation, live virtual classrooms, grading workflows, and omnichannel alerts across administrators, teachers, students, and parents/guardians in real time.
+**Montly LMS** is a **functional prototype** that combines a **Learning Management System (LMS)** with an institutional **School ERP**. Validated in a real educational environment (*Complejo Educativo Mario Briceño Iragorry*, Venezuela), it centralizes academic administration, conflict-free schedule generation, live virtual classrooms, grading workflows, and omnichannel alerts across administrators, teachers, students, and parents/guardians.
 
-> **Resumen en Español:** **Montly LMS** fusiona una plataforma educativa tipo LMS con un ERP escolar moderno para centralizar horarios, evaluaciones, aulas virtuales con Jitsi Meet y alertas omnicanal (Telegram Bot y Resend API) bajo un control de acceso estricto basado en roles (RBAC).
+> **Resumen en Español:** **Montly LMS** es un **prototipo funcional** que fusiona una plataforma educativa tipo LMS con un ERP escolar moderno para centralizar horarios, evaluaciones, aulas virtuales con Jitsi Meet y alertas omnicanal (Telegram Bot y Resend API) bajo un control de acceso estricto basado en roles (RBAC).
 
 <br />
 
 <div align="center">
   <img src="assets/github-features-bento.svg" alt="Montly LMS Architecture & Capabilities" width="100%" />
 </div>
+
+---
+
+## Visual Showcase
+
+Explore the multi-role user interface and institutional workflows directly on **[heycriss.dev/montly](https://heycriss.dev/montly)**:
+
+| Multi-Platform Access & Auth | Institutional Admin & Teacher Panels | Parent & Student Mobile Experience |
+| :---: | :---: | :---: |
+| <img src="https://storage.heycriss.dev/20260919212937/montly-login.png" alt="Montly Login UI" width="260" /> | <img src="https://storage.heycriss.dev/20260919212937/montly-adminprofesor.png" alt="Montly Admin & Teacher UI" width="260" /> | <img src="https://storage.heycriss.dev/20260919212937/montly-padrealumno.png" alt="Montly Parent & Student UI" width="260" /> |
+| Unified responsive login across desktop & mobile | Real-time ERP metrics, schedules & grading | Mobile-first tracking for tasks, grades & events |
 
 ---
 
@@ -107,13 +119,6 @@ flowchart LR
     FILA --> TG
     FILA --> RESEND
     ERP --> S3
-```
-
----
-
-## Repository Structure
-
-```text
 montly-lms/
 ├── app/
 │   ├── Enums/
@@ -136,28 +141,10 @@ montly-lms/
 ├── .env.example                         # Environment configuration template
 ├── composer.json                        # PHP 8.1+, Laravel 11 & FilamentPHP 3 manifest
 └── LICENSE                              # GPL-2.0-or-later
-```
 
----
-
-## Quick Start
-
-```bash
-git clone https://github.com/heycriss/montly-lms.git
-cd montly-lms
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-```
-
----
-
-## License
-
-Released under the **GNU General Public License v2.0 or later (`GPL-2.0-or-later`)**.
-
+License
+Released under the GNU General Public License v2.0 or later (GPL-2.0-or-later).
 <div align="center">
-  <br />
-  <p>Engineered by <strong><a href="https://heycriss.dev">Cristhian (Criss) · HeyCriss Labs</a></strong> · <a href="https://montly.space"><code>montly.space</code></a></p>
+<br />
+<p>Engineered by <strong><a href="https://heycriss.dev">Cristhian (Criss) · HeyCriss Labs</a></strong> · <a href="https://heycriss.dev/montly"><code>heycriss.dev/montly</code></a></p>
 </div>
